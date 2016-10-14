@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_margin="8dp"
+    android:background="#d5e9f5"
+    android:elevation="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:id="@+id/esquerda">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nome do usuário"
+                android:textColor="#000000"
+                android:paddingBottom="4dp"
+                android:id="@+id/nomeSolicitante"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="curso do usuário"
+                android:id="@+id/cursoSolicitante"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/direita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="4dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnAceitar"
+                android:paddingBottom="8dp"
+                android:text="@string/lblBtnAceitar"
+                android:textStyle="bold|italic"
+                android:textColor="#253594"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnRecusar"
+                android:text="@string/lblBtnRecusar"
+                android:textStyle="bold|italic"
+                android:textColor="#253594" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

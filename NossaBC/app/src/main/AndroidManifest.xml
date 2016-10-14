@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ufal.ic.fh.nossabc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ConsultaLivros.ConsultaActivity" />
+        <activity android:name=".ConsultaLivros.ResultadosConsultaActivity" />
+        <activity android:name=".Livro.LivroActivity" />
+        <activity android:name=".Painel.LoginActivity" />
+        <activity android:name=".Painel.PainelActivity" />
+        <activity android:name=".Comentario.ComentarioActivity" />
+        <activity android:name=".Painel.PerfilActivity" />
+        <activity android:name=".Solicitacao.SolicitacaoActivity" />
+        <activity android:name=".Mensagens.ConversaActivity" />
+        <activity android:name=".Mensagens.MensagensActivity" />
+        <activity android:name=".Usuario.ConsultaUsuarios" />
+        <activity android:name=".Usuario.ResultadosUsuarios" />
+        <activity android:name=".Mapa.MapaActivity"></activity>
+    </application>
+
+</manifest>

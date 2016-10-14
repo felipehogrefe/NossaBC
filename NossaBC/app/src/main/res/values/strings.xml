@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Nossa BC</string>
+    <string name="string_button_login">LOGIN</string>
+    <string name="string_button_consulta">CONSULTA</string>
+    <string name="string_button_reserva">RESERVA</string>
+    <string name="string_button_renovacao">RENOVAÇÃO</string>
+    <string name="string_button_guia">GUIA</string>
+    <string name="title_activity_livro">Livro</string>
+    <string name="lbl_titulo">Título:</string>
+    <string name="lbl_Buscar">Buscar</string>
+    <string name="lbl_detalhesLivro">Detalhes do metaLivro:</string>
+    <string name="lbl_chamada">Chamada:</string>
+    <string name="lbl_status">Status:</string>
+    <string name="lbl_resultados_consulta">Resultados da Consulta:</string>
+    <string name="btn_resultados_voltar">VOLTAR</string>
+    <string name="lbl_sem_resultados">Não Encontrado</string>
+    <string name="txt_erro">Não Encontrado</string>
+    <string name="btn_OK_erro">OK</string>
+    <string name="lbl_consulta_sem_resultados">Não Encontrado</string>
+    <string name="lbl_gostei">Gostei</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="btnVoltarLogin">VOLTAR</string>
+    <string name="string_button_painel">PAINEL</string>
+    <string name="txtLogout">LOGOUT</string>
+    <string name="txtSolicitacoes">SOLICITAÇÕES</string>
+    <string name="tvSolicitacao">Solicitações:</string>
+    <string name="btnVoltarSolic">VOLTAR</string>
+    <string name="lblBtnAceitar">ACEITAR</string>
+    <string name="lblBtnRecusar">RECUSAR</string>
+    <string name="lbl_edicao">Edição:</string>
+    <string name="btnUsuarios">USUÁRIOS</string>
+    <string name="lbl_nome">Nome do usuário:</string>
+    <string name="ENTRADA">lblEntrada</string>
+    <string name="lblEntrada">ENTRADA</string>
+    <string name="lblZoom">ZOOM</string>
+    />
+</resources>
